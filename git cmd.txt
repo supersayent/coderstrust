@@ -1,0 +1,33 @@
+$ git init
+
+
+
+$ git remote add origin https://github.com/supersayent/coderstrust
+
+
+$ git remote -v
+$ git status
+
+
+$ git config --global user.name "Supersayent"
+
+
+
+
+$ git config --global user.email "supersayent@gmail.com"
+$ git add .
+
+
+
+$ git commit -am "Adding New Files"
+
+
+
+$ git push origin master --force
+
+
+
+$ git rm git.txt
+
+
+$ git commit -m "Deleting a File"

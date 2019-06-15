@@ -1,0 +1,210 @@
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1
+
+$ git init
+
+Initialized empty Git repository in C:/xampp/htdocs/PhpProject1/.git/
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+
+$ git remote add origin https://github.com/supersayent/coderstrust
+.git
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+
+$ git remote -v
+
+origin  https://github.com/supersayent/coderstrust.git (fetch)
+origin  https://github.com/supersayent/coderstrust.git (push)
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+
+$ git status
+
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        button.css
+        class04_hw.php
+        class05_formvalidation.php
+        class3.php
+        class4.php
+        class4_task_loginpage.php
+        form.php
+        homework_alt.php
+        nbproject/
+        photos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+
+$ git add .
+
+warning: LF will be replaced by CRLF in button.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in class04_hw.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in class3.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in class4.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in form.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in homework_alt.php.
+The file will have its original line endings in your working directory
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+
+$ git commit -am "Adding New Files"
+
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ctbd@CTBD_LAB3.(none)')
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+$ ^C
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+
+$ git config user.name "Supersayent"
+
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+$ git config user.email "supersayent@gmail.com"
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+
+$ git config --global user.name "Supersayent"
+
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+
+$ git config --global user.email "supersayent@gmail.com"
+
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+
+$ git add .
+
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+
+$ git commit -am "Adding New Files"
+
+[master (root-commit) 6dfb0c6] Adding New Files
+ 18 files changed, 820 insertions(+)
+ create mode 100644 button.css
+ create mode 100644 class04_hw.php
+ create mode 100644 class05_formvalidation.php
+ create mode 100644 class3.php
+ create mode 100644 class4.php
+ create mode 100644 class4_task_loginpage.php
+ create mode 100644 form.php
+ create mode 100644 homework_alt.php
+ create mode 100644 nbproject/private/private.properties
+ create mode 100644 nbproject/private/private.xml
+ create mode 100644 nbproject/project.properties
+ create mode 100644 nbproject/project.xml
+ create mode 100644 photos/5ca89fa105b33.jpg
+ create mode 100644 photos/5ca89faa7fe12.jpg
+ create mode 100644 photos/5ca8a0b4f160dWater-Pic2.jpg
+ create mode 100644 photos/5ca8a0eabd6d7acess-security.png
+ create mode 100644 photos/cl_WolfDragoon1.jpg
+ create mode 100644 photos/hi.jpg
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+
+$ git push origin master --force
+
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (23/23), 471.63 KiB | 21.44 MiB/s, done.
+Total 23 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/supersayent/coderstrust.git
+ + cb49955...6dfb0c6 master -> master (forced update)
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+$ git add .
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+$ git commit -am "Adding a Text File & Updating class05 File"
+[master 2986a8b] Adding a Text File & Updating class05 File
+ 2 files changed, 121 insertions(+), 1 deletion(-)
+ create mode 100644 git.txt
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+
+$ git push origin master --force
+
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.45 KiB | 1.45 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/supersayent/coderstrust.git
+   6dfb0c6..2986a8b  master -> master
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+$ ls
+button.css                  class4.php                 homework_alt.php
+class04_hw.php              class4_task_loginpage.php  nbproject/
+class05_formvalidation.php  form.php                   photos/
+class3.php                  git.txt
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+
+$ git rm- git.txt
+
+git: 'rm-' is not a git command. See 'git --help'.
+
+The most similar command is
+        rm
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+
+$ git rm git.txt
+
+rm 'git.txt'
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+
+$ git commit -m "Deleting a File"
+
+[master 1913eab] Deleting a File
+ 1 file changed, 120 deletions(-)
+ delete mode 100644 git.txt
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 229 bytes | 229.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/supersayent/coderstrust.git
+   2986a8b..1913eab  master -> master
+
+ctbd@CTBD_LAB3 MINGW64 /c/xampp/htdocs/PhpProject1 (master)
+
+$
